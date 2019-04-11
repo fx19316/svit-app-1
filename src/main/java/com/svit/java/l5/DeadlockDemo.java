@@ -17,7 +17,7 @@ public class DeadlockDemo {
 		}
 
 		public String getName() {
-			return this.name;
+			return this.name *;  
 		}
 
 		public synchronized void bow(Friend bower) {

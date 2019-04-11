@@ -1,5 +1,10 @@
 package com.svit.java.l3;
 
+import java.util.*;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class ClosestToZero {
 
 	public int minDiff(int[] a){//return index
@@ -18,9 +23,15 @@ public class ClosestToZero {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = {1,2,3,-1,4};
-		ClosestToZero b = new ClosestToZero();
-		System.out.println(b.minDiff(a));
+		int a = 1 ; 
+		int b = 2;
+		swap(a , b);
+		System.out.println(a);
+	}
+	public static void swap(int a , int b){
+		int t = a; 
+		a = b ; 
+		b = t;
 	}
 
 }
